@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# -----------------------------
+# Project-specific ignores
+# -----------------------------
+
+# Dataset
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Outputs
+outputs/
+*.png
+*.csv
+
+# PyCharm project files
+.idea/
+
+# Local virtual environments
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pkl
+*.joblib
+
+# Backup files
+*.bak
+*.tmp
